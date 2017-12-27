@@ -3,7 +3,7 @@
 The following project, is aim to re-think how to build projects.
 Up until now, most projects uses GNU Make, cmake etc...
 
-The Project goals to create a programming language for projects that will allow to do
+The goals of this project is to provide:
 
 - Define entry points
 - Share information between points
@@ -14,6 +14,23 @@ The Project goals to create a programming language for projects that will allow 
 - Reusable instructions and deployment
 - Support multi-threading processing
 - Helping developers to develop and deploy
+- Project language agnostic
+- Control of versionning for dependencies, including Shared Libraries (DSO), and other dependencies
+- Templating of bootstraps
+- File templating
+- Support for Continues Integration
+- Support for automated testing
+- Support for reporting the failure and success
+- Rich library for operation:
+  * FTP access
+  * SSH/SCP/RSYNC
+  * VCS support (SVN, GIT, Mercurial)
+  * TCP Client
+  * HTTP Client
+  * System Access
+  * Digest/HMAC functions
+
+
 
 __**Important**__
 Current status of this project is ***still on design mode***, so nothing here is
