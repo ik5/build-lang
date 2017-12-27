@@ -15,6 +15,11 @@ The Project goals to create a programming language for projects that will allow 
 - Support multi-threading processing
 - Helping developers to develop and deploy
 
+__**Important**__
+Current status of this project is ***still on design mode***, so nothing here is
+stable, and everything might change. I check and test stuff to see what works
+and what does not.
+
 # FAQ
 
 Q. **Why a new language?**
