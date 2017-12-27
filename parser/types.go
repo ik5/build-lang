@@ -1,4 +1,4 @@
-package core
+package parser
 
 // Content holds the parsing content of scripts
 type Content []byte
@@ -6,8 +6,8 @@ type Content []byte
 // Token holds the type of token that is read
 type Token uint32
 
-// ParserBlock is the structure for what to store
-type ParserBlock struct {
+// Block is the structure for what to store
+type Block struct {
 	content Content
 	token   Token
 	lineNo  uint64
@@ -15,4 +15,4 @@ type ParserBlock struct {
 }
 
 // Parser holds a list of ParserBlock
-type Parser []ParserBlock
+type Parser []Block

@@ -1,4 +1,4 @@
-package core
+package parser
 
 // ReadBuffer takes a list of bytes and interprets them
 func ReadBuffer(buffer []byte) Parser {
