@@ -1,8 +1,8 @@
-# The Language
+h1. The Language
 
 An object oriented programming language, including functions, and entry points.
 
-## General Overview
+h2. General Overview
 
 The aim of the language is to help with building and deploying projects. But also
 help to follow-up on the tasks, providing abilities to deal with factors that
@@ -16,13 +16,13 @@ Also configuration and connection for tools such as Docker, Kubernetes etc...
 The language itself is not a pure programming language for general purpose, but
 designed to optimized for it's goals.
 
-### Why another build system?
+h3. Why another build system?
 
 Most building tools focused on programming language or specific tasks, while
 everything that does not suite to such requirements find itself implemented in
 different technologies, making it harder to maintain.
 
-### Why new programming language?
+h3. Why new programming language?
 
 Two main types of programming languages exists in the world - compiled vs interpreted.
 While both types are good, they contains other issues that exists - they are
@@ -32,7 +32,7 @@ The current implementation provides a domain specific language for building appl
 The language helps the builder to focus on the build task rather then on writing
 a general purpose language.
 
-### Language goals
+h3. Language goals
 
 **The main goals are:**
 
@@ -48,7 +48,7 @@ a general purpose language.
 - Development for non open source operating systems support (by me).
 -
 
-# The language logic
+h1. The language logic
 
 When breaking the build process down, there are key actions that constantly exists:
 
@@ -62,9 +62,9 @@ The language itself accommodate the above steps in a manner that is helpful for
 the build process.
 
 
-# The language itself
+h1. The language itself
 
-## Functions
+h2. Functions
 
 Function is a means to create sub execution of specific rule, that *can* return
 any value back.
@@ -73,67 +73,66 @@ It focused on a small code chunk that does something, rather then a collection
 of a big logic.
 It can use Object's instances, create them, call other functions, and use data types.
 
-## Objects
+h2. Objects
 
 Object is a means to hold a structure that should be created from many sub related
 elements.
 
 
 
-### Methods
+h3. Methods
 
 
-### Members
+h3. Members
 
 
-## Namespace
+h2. Namespace
 
 
-## Import
+h2. Import
 
 
-## Export
+h2. Export
 
 
-## Entry Points
+h2. Entry Points
 
 
-## Arrays
+h2. Arrays
 
 
-## Hashes
+h2. Hashes
 
 
-## Numeric
+h2. Numeric
 
 
-## Struct
+h2. Struct
 
 
-## Modules
+h2. Modules
 
 
-## String
+h2. String
 There are two types of strings with the language:
   1. `UTF-8` - Default encoding of the string.
   2. Literal string - A string that stored as a chain (array) of bytes with
      a prefix of length and charset identifier.
 
-## Reserved Words
+h2. Reserved Words
 
-| Word   | Meaning                   |
-| ------ | ------------------------- |
-| begin  | block of code starts here |
-| end    | block of code ends here   |
-| const  | create a constant value   |
-| var    | create a local variable   |
-| func   | create a function         |
-| return | return a value            |
+| _. Word | _. Meaning                |
+| begin   | block of code starts here |
+| end     | block of code ends here   |
+| const   | create a constant value   |
+| var     | create a local variable   |
+| func    | create a function         |
+| return  | return a value            |
 
 
-## Operators
+h2. Operators
 
-### Arithmetic
+h3. Arithmetic
 
 - \+ - add numbers
 - \- - subtract numbers
@@ -142,16 +141,16 @@ There are two types of strings with the language:
 - % - reminder on numbers
 - ** - Exponentiation
 
-### String
+h3. String
 
 - .. - concat string
 - ' - uninterpreted string
 - " - interpreted string
 - \` - literal char (or string), converted to bytes
 
-## Symbols
+h2. Symbols
 
-### General
+h3. General
 
 - \# - single line comment
 - ( - group start
@@ -163,4 +162,4 @@ There are two types of strings with the language:
 - = - equal
 - \<- assign
 
-# Syntax Examples
+h1. Syntax Examples
