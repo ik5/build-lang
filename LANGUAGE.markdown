@@ -131,7 +131,9 @@ There are two types of strings with the language:
 - ) - group end
 - , - argument seperator
 - ; - end of action
-- < - smaller then
+- \< - smaller then
 - \> - bigger then
 - = - equal
-- <- assign
+- \<- assign
+
+# Syntax Examples
