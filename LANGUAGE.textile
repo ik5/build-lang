@@ -116,7 +116,7 @@ h2. Modules
 h2. String
 
 There are two types of strings with the language:
-# `UTF-8` - Default encoding of the string.
+# @UTF-8@ - Default encoding of the string.
 #  Literal string - A string that stored as a chain (array) of bytes with
      a prefix of length and charset identifier.
 
@@ -135,10 +135,10 @@ h2. Operators
 
 h3. Arithmetic
 
-* \+ - add numbers
-* \- - subtract numbers
-* \* - multiple numbers
-* / - divide numbers
+* + - add numbers
+* - - subtract numbers
+* * - multiple numbers
+*  - divide numbers
 * % - reminder on numbers
 * ** - Exponentiation
 
@@ -147,20 +147,20 @@ h3. String
 * .. - concat string
 * ' - uninterpreted string
 * " - interpreted string
-* \` - literal char (or string), converted to bytes
+* ` - literal char (or string), converted to bytes
 
 h2. Symbols
 
 h3. General
 
-* \# - single line comment
+* # - single line comment
 * ( - group start
 * ) - group end
 * , - argument seperator
 * ; - end of action
-* \< - smaller then
+* < - smaller then
 * \> - bigger then
 * = - equal
-* \<- assign
+* <- assign
 
 h1. Syntax Examples
