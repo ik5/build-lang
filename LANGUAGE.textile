@@ -114,6 +114,7 @@ h2. Modules
 
 
 h2. String
+
 There are two types of strings with the language:
   1. `UTF-8` - Default encoding of the string.
   2. Literal string - A string that stored as a chain (array) of bytes with
