@@ -96,6 +96,7 @@ There are two types of strings with the language:
 ## Reserved Words
 
 | Word   | Meaning                   |
+| ------ | ------------------------- |
 | begin  | block of code starts here |
 | end    | block of code ends here   |
 | const  | create a constant value   |
