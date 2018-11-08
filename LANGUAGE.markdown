@@ -8,19 +8,22 @@ The aim of the language is to help with building and deploying projects. But als
 help to follow-up on the tasks, providing abilities to deal with factors that
 required by the tasks.
 
+The aim is to help tools such as Puppet, Ansible etc to work after deployment
+if needed.
+
 The language itself is not a pure programming language for general purpose, but
 designed to optimized for it's goals.
 
-### Why another build language?
+### Why another build system?
 
 Most building tools focused on programming language or specific tasks, while
-everything that does not suite such requirements find itself implemented in
-different technology, making it hard to maintain these technologies.
+everything that does not suite to such requirements find itself implemented in
+different technologies, making it harder to maintain.
 
 ### Why new programming language?
 
 Two main types of programming languages exists in the world - compiled vs interpreted.
-While both ways are good, they contains other issues that exists - they are
+While both types are good, they contains other issues that exists - they are
 general purposed languages most of the times.
 
 The current implementation provides a domain specific language for building applications.
@@ -34,7 +37,8 @@ The main goals are:
 - Providing minimal footprint of written code.
 - Providing as much as possible tools for both building and deployment of projects.
 - Provide agnostic project support, so the project programming should not be important.
-- Provide reusable tools to-do build and deploy of a project.
+- Provide reusable tools to-do build and deploy of a project for writing once,
+  and use everywhere ;-).
 
 Non Goals:
 
