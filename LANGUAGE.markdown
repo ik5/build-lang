@@ -11,6 +11,8 @@ required by the tasks.
 The aim is to help tools such as Puppet, Ansible etc to work after deployment
 if needed.
 
+Also configuration and connection for tools such as Docker, Kubernetes etc...
+
 The language itself is not a pure programming language for general purpose, but
 designed to optimized for it's goals.
 
@@ -32,7 +34,7 @@ a general purpose language.
 
 ### Language goals
 
-The main goals are:
+**The main goals are:**
 
 - Providing minimal footprint of written code.
 - Providing as much as possible tools for both building and deployment of projects.
@@ -40,10 +42,11 @@ The main goals are:
 - Provide reusable tools to-do build and deploy of a project for writing once,
   and use everywhere ;-).
 
-Non Goals:
+**Non Goals:**
 
-- Full programming language.
-- Development for non open source operating systems support.
+- Full featured programming language.
+- Development for non open source operating systems support (by me).
+-
 
 # The language logic
 
@@ -63,8 +66,24 @@ the build process.
 
 ## Functions
 
+Function is a means to create sub execution of specific rule, that *can* return
+any value back.
+
+It focused on a small code chunk that does something, rather then a collection
+of a big logic.
+It can use Object's instances, create them, call other functions, and use data types.
 
 ## Objects
+
+Object is a means to hold a structure that should be created from many sub related
+elements.
+
+
+
+### Methods
+
+
+### Members
 
 
 ## Namespace
@@ -86,6 +105,9 @@ the build process.
 
 
 ## Numeric
+
+
+## Struct
 
 
 ## Modules
