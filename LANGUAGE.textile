@@ -121,13 +121,13 @@ There are two types of strings with the language:
 
 h2. Reserved Words
 
-| _. Word | _. Meaning                |
-| begin   | block of code starts here |
-| end     | block of code ends here   |
-| const   | create a constant value   |
-| var     | create a local variable   |
-| func    | create a function         |
-| return  | return a value            |
+|_. Word |_. Meaning                 |
+| begin  | block of code starts here |
+| end    | block of code ends here   |
+| const  | create a constant value   |
+| var    | create a local variable   |
+| func   | create a function         |
+| return | return a value            |
 
 
 h2. Operators
